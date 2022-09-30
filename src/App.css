@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+}
+
+[class*="__container"]{
+  margin: 30px 0;
+  width:fit-content;
+}
+.counter{
+  display: flex;
+
+}
+.counter button{
+  margin: 7px;
+  color: blue;
+  border: 1px solid blue;
+  background: none;
+  border-radius: 10px;
+  padding: 15px;
+}
+.counter button:hover{
+  background: rgb(65, 65, 191);
+  color: white;
+  border: 1px solid rgb(0, 0, 0);
+}
+.counter button:active{
+  background: rgb(155, 155, 235);
+  color: white;
+  border: 1px solid rgb(0, 0, 0);
+}
+.product{
+  display: flex;
+}
+.product input{
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 7px;
+  border: 5px solid #C2DBFE;  
+  outline: 0;
+  outline-offset: 0;
+}
+.product button{
+  background-color: #0D6EFD;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0 30px;
+  margin-left: 10px;
+}
+
+.product button:hover{
+  background-color: rgb(214, 214, 214);
+  color: blue;
+  
+}
+.product button:active{
+  background-color: blue;
+  color: white;
+}
+.product_res{
+  width: auto;
+  height: 40px;
+  background-color: #c2c2c2;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 5px 0;
+}
+.li_todo{
+  display: flex;
+  align-items: center;
+  
+}
+.btn_del{
+  margin-left: auto;
+}
+table, th,td{
+  border: 1px solid #000;
+  
+  text-align: center;
+}
+.game-input{
+  margin: 0 10px;
+}
